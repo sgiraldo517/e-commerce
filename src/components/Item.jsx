@@ -23,7 +23,7 @@ function Item({ producto }) {
                     </div>
                     <div className="card-footer">
                         <Link to={`/product/${producto.id}`}>
-                            <button className="btn btn-outline-danger w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <button className="btn btn-outline-danger w-100">
                                 Ver detalles
                             </button>
                         </Link>

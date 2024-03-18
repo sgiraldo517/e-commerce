@@ -39,7 +39,15 @@ function ItemListContainer({ saludo, tienda, mensaje }) {
             </div>
 
             <div>
-                <ItemList libros={libros} />
+                <div className="container my-5">
+                    <div className="p-5 bg-body-tertiary rounded-3 shadow-lg">
+                        <div className="container">
+                            <div className="row row-cols-1 row-cols-md-3 g-4 text-center mx-auto">
+                                <ItemList libros={libros} cardType='Item'/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div> 
         </>
     );
